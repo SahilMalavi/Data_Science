@@ -41,7 +41,7 @@ for i in movie_rec[:5]:
 
     with col[k]:
          j=k+1
-         st.text(movies.iloc[i[0]].title)
+         st.text(str(j)+": "+ movies.iloc[i[0]].title)
          img_path=fetch_p(movies.iloc[i[0]].movie_id)
          st.write("\n")
          st.image(img_path)
