@@ -32,7 +32,7 @@ if st.button('Recommend'):
     # recommend() function return list of distance between each movie
     movie_rec=recommend(option)
     st.header("\nYou may like this")
-    st.write("Top 5 movies are:\n\n")
+    st.subheader('Top 5 :blue[movies] :sunglasses:')
     
 col = st.columns(5)
 
