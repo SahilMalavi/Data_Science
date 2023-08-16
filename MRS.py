@@ -33,6 +33,7 @@ if st.button('Recommend'):
     movie_rec=recommend(option)
     st.header("\nYou may like this")
     st.write("Top 5 movies are:\n")
+    
 col = st.columns(5)
 
 k=0;
